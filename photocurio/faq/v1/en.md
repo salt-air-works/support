@@ -15,7 +15,8 @@ anything else, and the publish script refuses it:
 - Paragraphs, "- " bullets and "1. " numbered lists (not nested); wrapped
   lines are fine. Inline **bold**, *italic* and `code`.
 - No links, images, block quotes, code blocks, tables or rules — an Apple
-  TV has nowhere to open a link.
+  TV has nowhere to open a link. A bare email address counts as a link
+  (Apple's Markdown turns it into one), so write it as `code`.
 - One tag comment may follow a question on the next line:
   platforms: tvOS (or iPadOS) shows it only on those devices, and
   since: 1.1 only in that app version and later — so a published answer
@@ -183,3 +184,11 @@ The address includes a private link that only devices which have scanned it
 know, so other devices on your network can't see or control the frame. If
 you've shared it with a device you no longer want controlling the frame, tap
 **Reset Remote Link** in Settings → Remote Control and scan the new code.
+
+## Contact
+
+### How do I contact support?
+
+Email `support@saltairworks.com`. It helps to say whether you're using an
+iPad or an Apple TV, which version of PhotoCurio you have (it's shown at the
+bottom of Settings), and what you were doing when the problem happened.
